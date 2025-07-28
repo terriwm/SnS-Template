@@ -41,9 +41,9 @@
     [Date of submission],[#dateOfSubmission],
     [Is this a resubmission],[#{
       if isResubmit [
-        Yes #h(0.5em) #sym.ballot.cross #h(2em) No #h(0.5em) #sym.ballot
+        Yes #h(0.5em) #sym.ballot.cross #h(2em) No #h(0.5em) #sym.square.stroked.medium
       ] else [
-        Yes #h(0.5em) #sym.ballot #h(2em) No #h(0.5em) #sym.ballot.cross
+        Yes #h(0.5em) #sym.square.stroked.medium #h(2em) No #h(0.5em) #sym.ballot.cross
       ]
     }],
     columns: (1fr, 2fr),
